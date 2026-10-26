@@ -1,0 +1,41 @@
+# Python environments, bytecode and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.test-deps/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# JavaScript dependencies and build output
+node_modules/
+.next/
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Test output and logs
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+test-results/
+playwright-report/
+*.log
+
+# Local configuration and editor files
+.env
+.env.*
+!.env.example
+!.env.sample
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated local SQLite database (recreated by seed.py)
+App/backend/data.db
+App/backend/data.db-*
